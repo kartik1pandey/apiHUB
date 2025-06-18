@@ -1,0 +1,30 @@
+[
+  {
+    "keywords": ["api key", "authentication", "auth"],
+    "response": "To authenticate with APIhub, generate an API key from your dashboard and include it in the Authorization header as 'Bearer <your-key>'. For OAuth 2.0, use your Client ID and Secret to obtain an access token via the /oauth/token endpoint."
+  },
+  {
+    "keywords": ["rate limit", "limits", "429"],
+    "response": "APIhub's free tier allows 100 requests/hour or 1,000 requests/day. Premium tiers offer 10,000 requests/hour. If you receive a 429 error, you've exceeded the rate limit. Wait for the next hour or upgrade your plan."
+  },
+  {
+    "keywords": ["error", "400", "401", "403", "500"],
+    "response": "Common APIhub errors: 400 (Bad Request) for invalid parameters, 401 (Unauthorized) for invalid API keys, 403 (Forbidden) for permission issues, 429 (Too Many Requests) for rate limit issues, and 500 (Internal Server Error) for server issues. Check the documentation or contact support@apihub.com."
+  },
+  {
+    "keywords": ["apis", "catalog", "endpoints"],
+    "response": "APIhub offers APIs in finance, weather, e-commerce, and more. Example: GET /v1/payments/transactions retrieves transaction data. Check the developer dashboard for the full catalog and Swagger documentation."
+  },
+  {
+    "keywords": ["pricing", "cost", "plan"],
+    "response": "APIhub offers a free tier (100 requests/hour), a premium tier ($29/month, 10,000 requests/hour), and enterprise plans (custom pricing). Visit the dashboard for details."
+  },
+  {
+    "keywords": ["data format", "json", "xml"],
+    "response": "APIhub responses are in JSON by default, with XML support for some APIs. Example JSON: {'status': 'success', 'data': {'transaction_id': '12345', 'amount': 100.50}}."
+  },
+  {
+    "keywords": ["support", "contact", "help"],
+    "response": "For support, email support@apihub.com or create a ticket via this chatbot. Tickets are escalated to our team for quick resolution."
+  }
+]
